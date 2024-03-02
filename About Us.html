@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="css">
+</head>
+<style>
+  body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  img {
+    width: 100px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  .navbar {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  display: flex; /* 添加这一行 */
+  justify-content: center; /* 添加这一行 */
+}
+
+.navbar a {
+  /* 删除 float: left; */
+  display: inline-block; /* 添加这一行 */
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .dropdown {
+    display: inline-block;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .school-image {
+    margin-top: 20px;
+  }
+  .school-image img {
+    width: 100px;
+    height: auto;
+  }
+  .school-values {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .school-values {
+        background-color: #f2f2f2; /* Set the background color of the text box */
+        padding: 20px; /* Add some padding for better visibility */
+        border-radius: 10px; /* Optional: Add rounded corners to the text box */
+    }
+    .slogan-box {
+        background-color: #e6f7ff; /* Set the background color for the slogan box */
+        padding: 15px; /* Add padding for better visibility */
+        border-radius: 8px; /* Optional: Add rounded corners to the slogan box */
+    }
+    #myImage {
+  width: 100%; /* 设置图片宽度为100% */
+  height: auto; /* 设置高度自适应，保持图片比例 */
+  cursor: pointer; /* 鼠标指针样式为手型，表示可点击 */
+}
+
+#myImage:hover {
+  transform: scale(1.2); /* 鼠标悬停时图片放大到1.2倍 */
+  transition: transform 0.3s ease-in-out; /* 添加过渡效果，使放大动画平滑 */
+}
+</style>
+<body>
+    <img src="img\logo.png">
+    <h1>Le Cordon Bleu International Culinary Institute Learning Center</h1>
+    <div class="navbar">
+      <a href="Home.html">Home</a>
+      <a href="About Us.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Course Details</a></button>
+            <div class="dropdown-content">
+                <a href="course1.html">SITXINV002- Maintain the quality of perishable items</a>
+                <a href="course2.html">SITXHRM003- Lead and manage people</a>
+                <a href="course3.html">SITHCCC018- Prepare food to meet special dietary requirements</a>
+                <a href="course4.html">SIT40516 Cert.V in Commercial Cookery</a>
+                <a href="course5.html">SITHKOP006- Plan catering for events or functions</a>
+            </div>
+        </div>
+      <a href="Form.html">Form</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+
+    <div class="school-image">
+      <div class="school-values">
+        <div class="values-section">
+            <div class="value-box">
+                <p>About Culinary School Learning Center</p>
+                <ul style="text-align: left;">
+                    <li>History of Culinary School Learning Center:</li>
+                    <p>Founded with a vision to empower aspiring chefs and cultivate culinary excellence, the Learning Center at our Culinary School has a rich history dating back to its establishment. Over the years, it has evolved into a dynamic hub of culinary knowledge, innovation, and community engagement. Since its inception, the Learning Center has played a pivotal role in shaping the educational landscape of our Culinary School.</p>
+                    <li>Key Milestones:</li>
+                    <p>1. Establishment: The Learning Center was established with the aim of providing a cutting-edge learning environment for students specializing in culinary disciplines.
+                        <br>2. Expansion: Over the years, it has undergone strategic expansions, incorporating modern facilities, technology, and pedagogical approaches to meet the evolving needs of culinary students.
+                        <br>3. Community Impact: Beyond culinary pursuits, the Learning Center has actively contributed to the local culinary community through outreach programs, partnerships, and initiatives that reflect a commitment to social responsibility.</p>
+                    <li>Campus Overview:</li>
+                    <p>Nestled within the culinary haven of our Culinary School, the Learning Center boasts state-of-the-art facilities designed to inspire and facilitate culinary learning.</p>
+                    <p>1. Modern Infrastructure: Our campus features contemporary kitchens, collaborative learning spaces, and well-equipped culinary libraries that provide a conducive environment for culinary exploration.</p>
+                    <p>2. Cutting-Edge Culinary Technology: Embracing the digital age, the Learning Center integrates cutting-edge culinary technology into the learning experience, ensuring students have access to the tools they need for culinary success.</p>
+                    <p>3. Culinary Cultural Ambiance: The campus reflects the rich culinary heritage of our Culinary School, with culinary gardens, art installations, and architecture that create a vibrant and inspiring atmosphere for culinary growth.</p>
+                    <p>4. Global Culinary Perspective: With a commitment to fostering a global culinary perspective, the Learning Center promotes international culinary collaborations, exchange programs, and a diverse student body, creating an inclusive culinary environment that prepares students for a connected culinary world.</p>
+                    <li>As we continue to build on our culinary legacy, the Learning Center at our Culinary School remains dedicated to providing an exceptional culinary education, nurturing future culinary leaders, and contributing to the culinary and social advancement of our community.</li>
+                    <!-- Add more values as needed -->
+                </ul>
+            </div>
+
+        </div>
+        <div class="slogan-box">
+          <img id="myImage" src="img/about us.jpg" alt="About Us">
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      Knight(Ye Jiayu) 213190634
+    </footer>
+
+</body>
+</html>
